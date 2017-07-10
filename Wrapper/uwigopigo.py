@@ -86,7 +86,7 @@ def set_rotatation(angle):
     return num_rotations
 
 
-def rotate_left(angle):
+def left_rotate(angle):
     """
     Rotates the robot a specified number of degrees to the left
     :param angle: the angle to rotate in degrees
@@ -98,7 +98,7 @@ def rotate_left(angle):
 
 
 
-def rotate_right(angle):
+def right_rotate(angle):
     """
     Rotates the robot a specified number of degress to the right
     :param angle: the angle to rotate in degrees
