@@ -1,0 +1,2 @@
+from gopigo import *
+stop()
