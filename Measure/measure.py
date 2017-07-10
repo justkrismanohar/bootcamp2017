@@ -53,7 +53,7 @@ def m1():
 	return count
 #rotates left by one turn. The number of degrees for a turn varies with speed
 def turn1(n):
-    set_speed(100)#  with speed 100 , n = 34 is approx 360 degress. Each seed will have a different number to turn 360 degrees
+    set_speed(100)#  with speed 100 , n = 34 is approx 360 degress. Each speed will have a different number to turn 360 degrees
     enc_tgt(1,0,n)
     left_rot()
     
