@@ -2,11 +2,12 @@
 
 from gopigo import *
 import time
+from __future__ import print_function
 
 distance_to_stop = 20
 state = 0 # state = 0 means found Mary, state = 1 means find Mary
 
-print "Press ENTER to strart"
+print("Press ENTER to strart")
 raw_input()
 
 while True:

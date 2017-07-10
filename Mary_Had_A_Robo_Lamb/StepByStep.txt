@@ -1,6 +1,6 @@
 Mary Had a Robo Lamb
 
-The main idea of this project was to intorduce the idea of states, and transitioning 
+The main idea of this project was to introduce the idea of states, and transitioning
 between them. The lamb as three states: Looking for Mary, Found Mary, and Cry
 (lost mary for too long). Students should determine how the current state is affected 
 if the lamb detects mary or looses mary.
