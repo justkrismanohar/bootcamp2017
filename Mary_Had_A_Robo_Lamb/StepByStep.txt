@@ -1,0 +1,24 @@
+Mary Had a Robo Lamb
+
+The main idea of this project was to intorduce the idea of states, and transitioning 
+between them. The lamb as three states: Looking for Mary, Found Mary, and Cry
+(lost mary for too long). Students should determine how the current state is affected 
+if the lamb detects mary or looses mary.
+
+Step 1. 
+Experiment with the us_dist call to figure out how to determine if the lamb 'sees' Mary
+
+Step 2.
+Figure out transitions for two states: Looking for Mary and Found Mary, how the state is
+affected if the lamb detects mary or looses mary. 
+
+Step 3.
+Program Step 2 with a simple while loop.
+
+Step 4. 
+Introduce how to measure time. This adds a third transition i.e., if x seconds had passed
+in the lost mary state. Figure out how this affects the program in Step 3
+
+Step 5. 
+Update the program in Step 3 to use the new transistion i.e., if x seconds had passed
+in the lost mary state.

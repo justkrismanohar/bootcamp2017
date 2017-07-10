@@ -1,0 +1,55 @@
+Measure
+
+The two main functions in this project are:
+
+1. enc_tgt(1,1,num_rev). This is used to control the rotation of the wheel.
+The first two paramenters are either 1 or 0 (i.e., use or do not use the left
+right motors). The third parameter specifies how much to turn the wheel by.
+If num_rev = 18, the wheel makes a complete turn.
+
+2. us_dist(15). This returns the value from the ultra sonic sensor.
+
+The main idea is to use enc_tgt to control the movements. So if we are measureing
+the side of an ojbect, we can keep truning the wheel a fixed amount until we
+reach the end of the side. At the end we know how many turns were made and 
+hence we can approximate the distance. 
+
+
+Step 1
+Get familar with the enc_tgt function by making simple calls and experimentaiton.
+
+Step 2
+Experiment with the us_dist calls. Specifically, interpret the us_dist values.
+For example, if there is change in values this means something is nearer.
+Therefore change form high to low could mean the start of an edge, and change 
+form low to high could another edege. 
+
+Step 3
+Write some simple loops using enc_tgt and us_dist. For example while us_dist 
+is greater than say 35, move forward. Stop when it returns less than 35. 
+
+Step 4
+Write functions that use loops in Step 3.
+
+Step 5
+Let them experiment to put Steps 1-4 together to measure the side of an object.
+
+Step 6
+The enc_tgt(1,1,num_rev) can be used to control rotations in a similar way.
+After calling enc_tgt, call left_rot() of right_rot()
+
+Step 7
+If necessary neaten up code i.e., function calls, static variables etc.  
+
+
+
+
+
+
+
+
+
+
+
+
+
