@@ -5,6 +5,8 @@
 from gopigo import *
 import time
 from __future__ import print_function
+from six.moves import input
+
 
 distance_to_stop = 20
 time_to_cry = 30 #time in seconds
@@ -15,7 +17,7 @@ start = time.time() #measured in seconds
 end = start
 time_diff = end - start
 print("Press ENTER to strart")
-raw_input()
+input()
 
 servo(90)
 

@@ -2,16 +2,22 @@ from gopigo import *
 import time
 
 from __future__ import print_function
+from six.moves import input
 
 
-distance_to_stop = 20
+DISTANCE_TO_STOP = 20
+
+
+
 print("Press ENTER to strart")
-raw_input()
+input()  # accepts keyboard input
 
+# Infinite Loop
+# Keep running until we break out of loop
 while True:
-    dist = us_dist(15)
-    print dist
-    if dist < distance_to_stop:
+    dist = us_dist(15)  # get distance from sensor
+    print(dist)
+    if dist < DISTANCE_TO_STOP:
         print("Stopping")
         stop()
     else:

@@ -16,7 +16,7 @@ hence we can approximate the distance.
 
 
 Step 1
-Get familar with the enc_tgt function by making simple calls and experimentaiton.
+Get familiar with the enc_tgt function by making simple calls and experimentaiton.
 
 Step 2
 Experiment with the us_dist calls. Specifically, interpret the us_dist values.
