@@ -7,8 +7,6 @@ from six.moves import input
 
 DISTANCE_TO_STOP = 20
 
-
-
 print("Press ENTER to strart")
 input()  # accepts keyboard input
 
@@ -20,6 +18,8 @@ while True:
     if dist < DISTANCE_TO_STOP:
         print("Stopping")
         stop()
+        # Estimate distance travelled
+        # If "run out of road" turn around
     else:
         fwd()
 
