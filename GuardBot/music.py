@@ -25,8 +25,7 @@ class AudioFile(Thread):
         self._stop.set()
 
 def play(file):
-    x = AudioFile(file)
-    return x
+    return AudioFile(file)
         
 
     

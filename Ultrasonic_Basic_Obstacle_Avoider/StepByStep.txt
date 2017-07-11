@@ -1,0 +1,24 @@
+The main idea: interact with the ultra sonic sensor
+
+Step 1.
+Experiment with fwd, bwd and stop commands
+
+Step 2. 
+Experiment with us_dist(15) calls
+
+Step 3. 
+Figure out how to determine when an obstacle is near
+
+Step 4.
+Implement Step 3 with a while loop. Stop when Bob meets
+an obstacle
+
+Step 5.
+Experiment with the servo(degrees) function. 
+
+Step 6.
+Figure out how determine a safe direction to move in after 
+an obstacle is detected 
+
+Step 7.
+Implement Step 6 in a while loop

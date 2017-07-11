@@ -1,5 +1,5 @@
 #Basic State Machine
-#Stops and Cries if can't find Mary (maybe throes a fit?)
+#Stops and Cries if can't find Mary (maybe throws a fit?)
 #Objective Measure Time
 
 from gopigo import *

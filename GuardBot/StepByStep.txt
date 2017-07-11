@@ -1,0 +1,25 @@
+The main idea: Use external modules to react to ultra sonic input
+
+Step 1.
+Experiment with reading data form the ultra sonic sensor
+
+Step 2. 
+Write wrapper function for reading data from the ultra sonic senor
+
+Step 3.
+Experiment with the espeak and music modules. 
+
+Step 4.
+Figure out how to detect an intruder
+
+Step 5.
+Implement Step 3 (can use a simple print function to react to intruder)
+
+Step 6. 
+Implement more elaborate reactions. Students and use their own audio files.
+
+Step 7. 
+Add a loop so the guard bot returns  to “guard” mode after reacting to an intruder
+
+Step 8. 
+Explain how modules work. Can demonstrate with the code from the music module. 

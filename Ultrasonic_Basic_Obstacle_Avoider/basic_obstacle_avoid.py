@@ -39,7 +39,7 @@ import time
 from __future__ import print_function
 from six.moves import input
 
-distance_to_stop=20		#Distance from obstacle where the GoPiGo should stop
+DISTANCE_TO_STOP =20		#Distance from obstacle where the GoPiGo should stop
 print("Press ENTER to start")
 input()				#Wait for input to start
 fwd()					#Start moving
@@ -47,8 +47,8 @@ fwd()					#Start moving
 while True:
 	dist=us_dist(15)			#Find the distance of the object in front
 	print("Dist:",dist,'cm')
-	if dist<distance_to_stop:	#If the object is closer than the "distance_to_stop" distance, stop the GoPiGo
+	if dist<DISTANCE_TO_STOP:	#If the object is closer than the "distance_to_stop" distance, stop the GoPiGo
 		print("Stopping")
 		stop()					#Stop the GoPiGo
 		break
-	time.sleep(.1)
+	time.sleep(.1) #Otherwise give the sensor a rest and poll again
