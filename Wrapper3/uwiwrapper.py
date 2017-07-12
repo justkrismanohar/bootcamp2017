@@ -8,7 +8,9 @@ import time
 ROBOT = easy.EasyGoPiGo3()
 MAX_INT = 10000
 SENSOR = None
+SERVO = None
 SLEEP_TIME = 0.3
+PORT = 'I2C1'
 
 def measure():
     """
@@ -16,7 +18,21 @@ def measure():
     with the sensor's scope
     :return: the distance to the nearest object in centimetres
     """
-    raise NotImplementedError('Measure functionality not implemented yet')
+    global ROBOT
+    global SENSOR
+    # if the sensor has not been initialised yet
+    if not SENSOR:
+        SENSOR = easy.DistanceSensor(PORT, ROBOT)
+    distance = SENSOR.read()
+    return distance
+
+def get_robot():
+    """
+    Grabs the robot object (breaks encapsulation :( )
+    :return: None
+    """
+    global ROBOT
+    return ROBOT
 
 def go_forward(distance):
     """
